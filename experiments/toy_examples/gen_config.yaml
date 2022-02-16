@@ -1,0 +1,28 @@
+0:
+  n_initial: 1000
+  ert: 128
+  n_trials: 100
+  times_per_trial: 500
+  change_point: 26
+  log_mean_every: 50
+1:
+  n_initial: 1000
+  ert: 256
+  n_trials: 100
+  times_per_trial: 500
+  change_point: 26
+  log_mean_every: 50
+2:
+  n_initial: 1000
+  ert: 512
+  n_trials: 100
+  times_per_trial: 500
+  change_point: 26
+  log_mean_every: 50
+3:
+  n_initial: 1000
+  ert: 1024
+  n_trials: 100
+  times_per_trial: 500
+  change_point: 26
+  log_mean_every: 50

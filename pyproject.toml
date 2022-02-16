@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "dd"
+version = "0.1.0"
+description = ""
+authors = ["Oliver Cobb <55446819+ojcobb@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "1.19.5"
+matplotlib = "^3.3.4"
+statsmodels = "^0.12.2"
+tqdm = "^4.56.2"
+wandb = "^0.10.19"
+seaborn = "^0.11.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+scipy = "^1.6.0"
+ipython = "^7.20.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

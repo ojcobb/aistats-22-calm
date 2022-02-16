@@ -1,0 +1,25 @@
+0:
+    name: lsddincsim
+    window_size: 25
+    test_every_k: 1
+    n_bootstraps: 25000
+1:
+    name: batchmmdsim
+    window_size: 25
+    test_every_k: 1
+    n_bootstraps: 25000
+    kernel:
+        name: gaussian_rbf
+2:
+    name: bstat
+    window_size: 25
+    test_every_k: 1
+    n_samples: 25000
+    kernel:
+        name: gaussian_rbf
+3:
+    name: lsddinc
+    window_size: 25
+    test_every_k: 1
+    test_n: 25
+    n_bootstraps: 25000

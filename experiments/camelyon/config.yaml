@@ -1,0 +1,24 @@
+0:
+  n_initial: 20000
+  ert: 5000
+  n_trials: 5
+  times_per_trial: 100
+  change_point: 101
+  log_mean_every: 50
+  save_every: 5
+  detector:
+    name: batchmmdsim
+    window_size: 100
+    n_bootstraps: 100000
+    test_every_k: 1
+  kernel:
+    name: gaussian_rbf
+  proj:
+    name: tae
+    enc_dim: 32
+    image_shape: [96, 96, 3]
+    fit:
+      prop: 0.5
+      epochs: 25
+      lr: 0.001
+      batch_size: 32

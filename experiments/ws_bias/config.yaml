@@ -1,0 +1,62 @@
+0:
+    N: 1000
+    W: 50
+    B: 25000
+    d: 1
+    kernel:
+        name: gaussian_rbf
+
+1:
+    N: 1000
+    W: 50
+    B: 25000
+    d: 2
+    kernel:
+        name: gaussian_rbf
+
+2:
+    N: 1000
+    W: 50
+    B: 25000
+    d: 4
+    kernel:
+        name: gaussian_rbf
+
+3:
+    N: 1000
+    W: 50
+    B: 25000
+    d: 8
+    kernel:
+        name: gaussian_rbf
+
+4:
+    N: 1000
+    W: 50
+    B: 25000
+    d: 16
+    kernel:
+        name: gaussian_rbf
+
+5:
+    N: 1000
+    W: 50
+    B: 25000
+    d: 32
+    kernel:
+        name: gaussian_rbf
+
+6:
+    N: 1000
+    W: 50
+    B: 25000
+    d: 64
+    kernel:
+        name: gaussian_rbf
+7:
+    N: 1000
+    W: 50
+    B: 25000
+    d: 128
+    kernel:
+        name: gaussian_rbf

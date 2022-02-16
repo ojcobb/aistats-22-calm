@@ -1,0 +1,28 @@
+0:  
+  P:
+    name: mvn
+    dim: 20
+  Q:
+    a:
+      name: mvn
+      dim: 20
+    b:
+      name: mvn
+      dim: 20
+      mean: 0.3
+    c:
+      name: mvn
+      dim: 20
+      var_1_var_2: [1.0, 2.0]
+1:  
+  P:
+    name: square
+  Q:
+    a:
+      name: square
+    b:
+      name: square
+      rotated: True
+    c:
+      name: square
+      center_removed: True
